@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sanjot.kotlintutorialfree">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tut"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Overview_kotlin"
+            android:label="@string/title_activity_overview_kotlin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tryitonline"
+            android:label="@string/title_activity_tryitonline"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Install_jdk"
+            android:label="@string/title_activity_install_jdk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Install_intel"
+            android:label="@string/title_activity_install_intel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Setting_Intellij"
+            android:label="@string/title_activity_setting__intellij"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kotlin_Repl"
+            android:label="@string/title_activity_kotlin__repl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Variables"
+            android:label="@string/title_activity_variables"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BasicTypes_String"
+            android:label="@string/title_activity_basic_types__string"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nullable_Variable"
+            android:label="@string/title_activity_nullable__variable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".First_app"
+            android:label="@string/title_activity_first_app"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Last"
+            android:label="@string/title_activity_last"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sanjot.kotlintutorialfree.BasicTypes_String"
+    tools:showIn="@layout/app_bar_basic_types__string"
+    android:background="@drawable/kotlin2">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:text="This tutorial covers all the basic types in Kotlin including strings. In the video, I go through the differences between the different data types for storing integer values, floating point numbers, text and logical values."
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginTop="10dp"
+
+        android:layout_marginStart="6dp" />
+
+    <Button
+        android:id="@+id/buttonstring"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="next"
+        android:background="@drawable/buttonkotlin"
+        android:textColor="#FFFFFF"
+        />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:visibility="visible"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/youtube_player_string"
+        android:layout_alignParentTop="true" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

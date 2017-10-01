@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kotlin Free Tutorial</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_overview_kotlin">Overview_Kotlin</string>
+    <string name="title_activity_tryitonline">Try it Online</string>
+    <string name="title_activity_install_jdk">Install JDK</string>
+    <string name="title_activity_install_intel">Install </string>
+    <string name="admob_interstitial_id">ca-app-pub-6146043872713766/3482553209</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6146043872713766/1786328153</string>
+    <string name="title_activity_setting__intellij">Setting Up IntelliJ</string>
+    <string name="title_activity_kotlin__repl">Using Kotlin Interactively in The REPL</string>
+    <string name="title_activity_variables">Variables</string>
+    <string name="title_activity_basic_types__string">Basic Types and String</string>
+    <string name="title_activity_nullable__variable">Nullable Variable</string>
+    <string name="title_activity_first_app">Your First Standalone Application</string>
+    <string name="title_activity_last">Thank You</string>
+</resources>

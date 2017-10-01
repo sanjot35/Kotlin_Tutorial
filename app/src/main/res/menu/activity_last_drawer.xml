@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/overview"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Overview of kotlin" />
+        <item
+            android:id="@+id/Try"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Try it online" />
+        <item
+            android:id="@+id/install_jdk"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Installing JDK" />
+        <item
+            android:id="@+id/install_intellij"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Installing IntelliJ" />
+        <item
+            android:id="@+id/setting_up_intellij"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Setting up IntelliJ" />
+        <item
+            android:id="@+id/REPL"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="KOTLIN in REPL" />
+        <item
+            android:id="@+id/variables"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Variables" />
+        <item
+            android:id="@+id/Strings"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Basic types and Strings" />
+        <item
+            android:id="@+id/nullable_var"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Nullable variables" />
+        <item
+            android:id="@+id/fisrt_app"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="First standalone App" />
+
+
+    </group>
+
+</menu>
